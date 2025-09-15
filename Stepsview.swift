@@ -47,7 +47,7 @@ struct Stepsview: View {
                 ZStack {
                     
                     Circle()
-                        .trim(from: 0, to: 0.5)
+                        .trim(from: 0, to: 1)
                         .stroke(style: StrokeStyle(lineWidth: 12))
                         .foregroundColor(Color.purple)
                         .rotationEffect(.degrees(-90))
