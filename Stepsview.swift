@@ -5,7 +5,6 @@
 //  Created by Lavonde Dunigan on 9/2/25.
 //
 
-
 import SwiftUI
 
 struct Stepsview: View {
@@ -38,7 +37,7 @@ struct Stepsview: View {
                     
                     Image(systemName: "waveform.path.ecg")
                         .font(.system(size: 20))
-                        .foregroundColor(Color.purple)
+                        .foregroundColor(Color.gray)
                     
                     
                 } // END: HStack
@@ -49,7 +48,7 @@ struct Stepsview: View {
                     Circle()
                         .trim(from: 0, to: 1)
                         .stroke(style: StrokeStyle(lineWidth: 12))
-                        .foregroundColor(Color.purple)
+                        .foregroundColor(Color.indigo)
                         .rotationEffect(.degrees(-90))
                         .frame(width: 220, height: 220)
                     
@@ -126,7 +125,7 @@ struct Stepsview: View {
                     .foregroundColor(.white)
                     .frame(maxWidth: .infinity)
                     .padding()
-                    .background(.purple)
+                    .background(.green)
                     .cornerRadius(30)
                     .padding()
                 
@@ -145,7 +144,7 @@ struct Stepsview: View {
             .foregroundColor(.white)
             .frame(maxWidth: .infinity)
             .padding()
-            .background(.purple)
+            .background(.red)
         }
          // END: VStack (main)
         .background (LinearGradient( gradient:Gradient(colors: [.purple, .purple.opacity(0.6)]),
